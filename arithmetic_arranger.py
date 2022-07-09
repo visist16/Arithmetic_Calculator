@@ -41,16 +41,7 @@ def arithmetic_arranger(problems,solve = False):
         for s in range(length + 2):
             line += "-"
 
-        if problem != problems[-1]:
-            first += top + '    '
-            second += bottom + '    '
-            lines += line + '    '
-            sumx += res + '    '
-        else:
-            first += top + ''
-            second += bottom + ''
-            lines += line + ''
-            sumx += res + ''
+        
 
     if solve:
         string = first + "\n" + second + "\n" + lines + "\n" + sumx
